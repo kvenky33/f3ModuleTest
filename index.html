@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Module test</title>
+  </head>
+  <body>
+    <div class="Timezone-page">
+      <h1>TimeZone API</h1>
+      <h1>Your Current Time Time Zone</h1>
+      <div class="data">
+        <p id="timezone">Name of the Time Zone:</p>
+        <p class="latlon" style="width: 20rem">
+          <span id="lat">Lat:</span>
+
+          <span id="long" style="margin-left: 200px; position: absolute"
+            >Long:</span
+          >
+        </p>
+        <p id="std">Offset STD:</p>
+        <p id="std-sec">Offset STD Seconds:</p>
+        <p id="dst">Offset DST:</p>
+        <p id="dst-sec">Offset DST Seconds:</p>
+        <p id="country">Country:</p>
+        <p id="pst-code">Postcode:</p>
+        <p id="city">City:</p>
+      </div>
+    </div>
+    <div class="search-address">
+      <h1>Enter Address</h1>
+      <div class="search">
+        <input type="text" id="address" placeholder="new delhi" />
+        <button type="submit" id="btn">submit</button>
+      </div>
+      <div class="search-data" id="valid">
+        <h1>Your result</h1>
+        <div class="result-data">
+          <p id="result-timezone">Name of the Time Zone:</p>
+          <p class="latlon" style="width: 20rem">
+            <span id="result-lat">Lat:</span>
+
+            <span
+              id="result-long"
+              style="margin-left: 200px; position: absolute"
+              >Long:</span
+            >
+          </p>
+          <p id="result-std">Offset STD:</p>
+          <p id="result-std-sec">Offset STD Seconds:</p>
+          <p id="result-dst">Offset DST:</p>
+          <p id="result-dst-sec">Offset DST Seconds:</p>
+          <p id="result-country">Country:</p>
+          <p id="result-pst-code">Postcode:</p>
+
+          <p id="result-city">City:</p>
+        </div>
+      </div>
+      <div class="error" id="error">
+        <p>Time zone could not found !</p>
+      </div>
+    </div>
+
+    <div class="search-timezone"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

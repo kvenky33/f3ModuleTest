@@ -1,0 +1,54 @@
+body {
+  background-color: rgba(37, 29, 29, 0.637);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Intern", sans-serif;
+}
+.Timezone-page {
+  background-color: white;
+  color: black;
+  width: 600px;
+  padding: 20px;
+}
+.data {
+  padding: 10px;
+  border: 1px solid black;
+}
+.search-address {
+  background-color: black;
+  color: white;
+  width: 600px;
+  padding: 20px;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+}
+#address {
+  background-color: black;
+  height: 20px;
+  color: white;
+  border: 2px solid white;
+}
+#btn {
+  background-color: white;
+  margin-top: 10px;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+}
+.search-data {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  /* border: 1px solid white; */
+}
+.result-data {
+  border: 1px solid white;
+}
+.error {
+  display: none;
+  color: red;
+}
